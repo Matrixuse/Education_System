@@ -63,21 +63,24 @@ Develop an AI-driven multi-agent educational system that:
 ---
 
 ## Project Structure
+
+```bash
 Education_System/
 │── main.py
 │
 ├── agents/
-│ │── researcher.py
-│ │── writer.py
+│   ├── researcher.py
+│   └── writer.py
 │
 ├── orchestrator/
-│ │── controller.py
+│   └── controller.py
 │
 ├── memory/
-│ │── shared_state.py
+│   └── shared_state.py
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
