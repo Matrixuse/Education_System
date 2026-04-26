@@ -22,7 +22,8 @@ jobs:
           script: |
             cd ~
             cd Education_System
-            git pull
+            git reset --hard origin/main
+            git pull origin main
             docker-compose down || true
             docker-compose build
             docker-compose up -d
