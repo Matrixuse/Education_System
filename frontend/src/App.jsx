@@ -9,7 +9,8 @@ import ThemeToggle from './components/ThemeToggle';
 import './App.css';
 
 // API Base URL with fallback: tries primary URL first, falls back to IP address if unavailable
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://65.2.144.13:8000' || '/api';
+// const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://65.2.144.13:8000' || '/api';
+const API_BASE_URL = "/api";
 
 export default function App() {
   const [phase, setPhase] = useState('idle'); // idle | running | done | error
