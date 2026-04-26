@@ -20,9 +20,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            cd ~
-            cd Education_System/Education_System
-            git fetch origin
-            git reset --hard origin/main
-            docker-compose build
-            docker-compose up -d --no-deps --build
+            cd ~/Education_System/Education_System
+            git pull origin main
+            docker-compose down
+            docker-compose up -d --build
