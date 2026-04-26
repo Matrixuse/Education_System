@@ -23,7 +23,7 @@ app.add_middleware(
         "http://localhost:3001",
         "http://127.0.0.1:3001",
         "https://education-system-vib8.onrender.com",
-        "http://65.2.144.13:8000",
+        "http://65.2.144.13:3000",
     ],
     allow_credentials=True,
     allow_methods=["*"],
