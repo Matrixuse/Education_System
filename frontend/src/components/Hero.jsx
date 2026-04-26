@@ -6,7 +6,7 @@ export default function Hero() {
     <header className="hero">
       <h2 className="hero-title">
         Multi-Agent<br />
-        <span className="gradient-text">Madarchod System</span>
+        <span className="gradient-text">Education System</span>
       </h2>
       <p className="hero-sub">
         A <strong>Researcher</strong> sources the best
