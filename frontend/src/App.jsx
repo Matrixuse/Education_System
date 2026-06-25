@@ -10,7 +10,7 @@ import './App.css';
 
 // API Base URL with fallback: tries primary URL first, falls back to IP address if unavailable
 // const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://65.2.144.13:8000' || '/api';
-const API_BASE_URL = "/api";
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://education-system-backend-dh7r.onrender.com";
 
 export default function App() {
   const [phase, setPhase] = useState('idle'); // idle | running | done | error
